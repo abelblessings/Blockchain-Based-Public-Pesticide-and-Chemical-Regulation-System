@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/chemical-spill-response.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.chemical-storage-inspection]
+path = 'contracts/chemical-storage-inspection.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
